@@ -13,8 +13,8 @@ use opengl_graphics::{ GlGraphics, OpenGL };
 mod state;
 use state::*;
 
-const GRID_SIZE: usize = 10;
-const CELL_SIZE: f64 = 25f64;
+const GRID_SIZE: usize = 200;
+const CELL_SIZE: f64 = 2f64;
 const BLACK: [f32; 4] = [0.0, 0.0, 0.0, 1.0];
 const WHITE: [f32; 4] = [1.0, 1.0, 1.0, 1.0];
 
