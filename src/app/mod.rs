@@ -5,8 +5,8 @@ use piston::input::*;
 use opengl_graphics::{ GlGraphics, OpenGL };
 use rayon::prelude::*;
 
-const GRID_SIZE: usize = 500;
-const CELL_SIZE: f64 = 2f64;
+const GRID_SIZE: usize = 200;
+const CELL_SIZE: f64 = 5f64;
 const BLACK: [f32; 4] = [0.0, 0.0, 0.0, 1.0];
 const WHITE: [f32; 4] = [1.0, 1.0, 1.0, 1.0];
 
