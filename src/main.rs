@@ -25,6 +25,7 @@ fn main() {
         [1000, 1000]
     )
         .opengl(opengl)
+        .srgb(false)
         .exit_on_esc(true)
         .build()
         .unwrap();
